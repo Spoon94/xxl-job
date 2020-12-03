@@ -18,12 +18,12 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * job alarm by email
- *
- * @author xuxueli 2020-01-19
- */
-@Component
+///**
+// * job alarm by email
+// *
+// * @author xuxueli 2020-01-19
+// */
+//@Component
 public class EmailJobAlarm implements JobAlarm {
     private static Logger logger = LoggerFactory.getLogger(EmailJobAlarm.class);
 
